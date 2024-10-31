@@ -1,0 +1,26 @@
+{
+  "name": "landing-page",
+  "private": true,
+  "scripts": {
+    "build": "tinacms build && next build",
+    "build:doppler": "doppler run -- tinacms build && doppler run -- next build",
+    "dev": "tinacms dev --port 4001 --datalayer-port 10010 -c \"next dev --turbopack -p 4010\"",
+    "dev:doppler": "doppler run -- tinacms dev --port 4001 --datalayer-port 10010 -c \"next dev --turbopack -p 4010\""
+  },
+  "dependencies": {
+    "@next/third-parties": "15.0.1",
+    "@tinacms/cli": "^1.6.11",
+    "next": "15.0.1",
+    "react": "19.0.0-rc-69d4b800-20241021",
+    "react-dom": "19.0.0-rc-69d4b800-20241021",
+    "tinacms": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.4",
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "add": "^2.0.6",
+    "typescript": "^5.6.3",
+    "vercel": "^32.7.2"
+  }
+}

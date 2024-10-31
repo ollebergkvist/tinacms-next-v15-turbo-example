@@ -1,0 +1,15 @@
+node_modules
+.env
+.env*
+.sentryclirc
+.next
+.vercel
+.env*.local
+.DS_Store
+_examples
+.github/workflows
+email/.react-email
+# Sentry Config File
+.env.sentry-build-plugin
+/public/sitemap*.xml
+/public/robots.txt
